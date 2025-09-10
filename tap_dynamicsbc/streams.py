@@ -20,6 +20,15 @@ class ClientsStream(DynamicsBusinessCentralStream):
     primary_keys: t.ClassVar[list[str]] = ["no"]
     replication_key = None
     records_jsonpath = "$.value[*]"
+
+    def get_url_params(
+        self,
+        context: t.Any | None = None,  # noqa: ARG002
+        next_page_token: t.Any | None = None,  # noqa: ANN401
+    ) -> dict[str, t.Any]:
+        params = super().get_url_params(context, next_page_token)
+        params["$filter"] = "blocked eq ' '"
+        return params
     
     schema = th.PropertiesList(
         th.Property("@odata.etag", th.StringType),
