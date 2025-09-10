@@ -81,8 +81,8 @@ class TapDynamicsBusinessCentral(Tap):
             A list of discovered streams.
         """
         return [
-            # streams.ClientsStream(self),
-            # streams.ProductsStream(self),
+            streams.ClientsStream(self),
+            streams.ProductsStream(self),
             streams.PricesStream(self),
         ]
 
