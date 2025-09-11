@@ -1,0 +1,85 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "@odata.etag": {
+        "type": ["string", "null"]
+      },
+      "Price_List_Code": {
+        "type": ["string", "null"]
+      },
+      "Line_No": {
+        "type": ["integer", "null"]
+      },
+      "PriceListDescription": {
+        "type": ["string", "null"]
+      },
+      "Status": {
+        "type": ["string", "null"]
+      },
+      "Source_Type": {
+        "type": ["string", "null"]
+      },
+      "Source_No": {
+        "type": ["string", "null"]
+      },
+      "Asset_Type": {
+        "type": ["string", "null"]
+      },
+      "Asset_No": {
+        "type": ["string", "null"]
+      },
+      "Description": {
+        "type": ["string", "null"]
+      },
+      "Variant_Code": {
+        "type": ["string", "null"]
+      },
+      "Work_Type_Code": {
+        "type": ["string", "null"]
+      },
+      "Unit_of_Measure_Code": {
+        "type": ["string", "null"]
+      },
+      "Minimum_Quantity": {
+        "type": ["integer", "null"]
+      },
+      "Amount_Type": {
+        "type": ["string", "null"]
+      },
+      "Currency_Code": {
+        "type": ["string", "null"]
+      },
+      "Unit_Price": {
+        "type": ["number", "null"]
+      },
+      "Cost_Factor": {
+        "type": ["integer", "null"]
+      },
+      "DirectUnitCost": {
+        "type": ["integer", "null"]
+      },
+      "Unit_Cost": {
+        "type": ["integer", "null"]
+      },
+      "Starting_Date": {
+        "type": ["string", "null"]
+      },
+      "Ending_Date": {
+        "type": ["string", "null"]
+      },
+      "Allow_Line_Disc": {
+        "type": ["boolean", "null"]
+      },
+      "Line_Discount_Percent": {
+        "type": ["integer", "null"]
+      },
+      "PurchLineDiscountPct": {
+        "type": ["integer", "null"]
+      },
+      "Allow_Invoice_Disc": {
+        "type": ["boolean", "null"]
+      }
+    },
+    "additionalProperties": false
+  }

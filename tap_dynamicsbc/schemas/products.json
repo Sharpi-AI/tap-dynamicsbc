@@ -1,0 +1,532 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "@odata.etag": {
+        "type": ["string", "null"]
+      },
+      "No": {
+        "type": ["string", "null"]
+      },
+      "Description": {
+        "type": ["string", "null"]
+      },
+      "Description2FNX": {
+        "type": ["string", "null"]
+      },
+      "Description_2": {
+        "type": ["string", "null"]
+      },
+      "Blocked": {
+        "type": ["boolean", "null"]
+      },
+      "Type": {
+        "type": ["string", "null"]
+      },
+      "Base_Unit_of_Measure": {
+        "type": ["string", "null"]
+      },
+      "Last_Date_Modified": {
+        "type": ["string", "null"]
+      },
+      "GTIN": {
+        "type": ["string", "null"]
+      },
+      "Item_Category_Code": {
+        "type": ["string", "null"]
+      },
+      "Manufacturer_Code": {
+        "type": ["string", "null"]
+      },
+      "Service_Item_Group": {
+        "type": ["string", "null"]
+      },
+      "Automatic_Ext_Texts": {
+        "type": ["boolean", "null"]
+      },
+      "Common_Item_No": {
+        "type": ["string", "null"]
+      },
+      "ManufacturerCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "Purchasing_Code": {
+        "type": ["string", "null"]
+      },
+      "VariantMandatoryDefaultYes": {
+        "type": ["string", "null"]
+      },
+      "VariantMandatoryDefaultNo": {
+        "type": ["string", "null"]
+      },
+      "Product_Sale_Status": {
+        "type": ["string", "null"]
+      },
+      "Service_Transaction_Type_Code": {
+        "type": ["string", "null"]
+      },
+      "Exclude_From_Service_Decl": {
+        "type": ["boolean", "null"]
+      },
+      "Shelf_No": {
+        "type": ["string", "null"]
+      },
+      "Created_From_Nonstock_Item": {
+        "type": ["boolean", "null"]
+      },
+      "Search_Description": {
+        "type": ["string", "null"]
+      },
+      "Inventory": {
+        "type": ["integer", "null"]
+      },
+      "InventoryNonFoundation": {
+        "type": ["integer", "null"]
+      },
+      "Qty_on_Purch_Order": {
+        "type": ["integer", "null"]
+      },
+      "Qty_on_Prod_Order": {
+        "type": ["integer", "null"]
+      },
+      "Qty_on_Component_Lines": {
+        "type": ["integer", "null"]
+      },
+      "Qty_on_Sales_Order": {
+        "type": ["integer", "null"]
+      },
+      "Qty_Tracking": {
+        "type": ["integer", "null"]
+      },
+      "Qty_on_Service_Order": {
+        "type": ["integer", "null"]
+      },
+      "Qty_on_Job_Order": {
+        "type": ["integer", "null"]
+      },
+      "Qty_on_Assembly_Order": {
+        "type": ["integer", "null"]
+      },
+      "Qty_on_Asm_Component": {
+        "type": ["integer", "null"]
+      },
+      "StockoutWarningDefaultYes": {
+        "type": ["string", "null"]
+      },
+      "StockoutWarningDefaultNo": {
+        "type": ["string", "null"]
+      },
+      "PreventNegInventoryDefaultYes": {
+        "type": ["string", "null"]
+      },
+      "PreventNegInventoryDefaultNo": {
+        "type": ["string", "null"]
+      },
+      "Net_Weight": {
+        "type": ["number", "null"]
+      },
+      "Gross_Weight": {
+        "type": ["number", "null"]
+      },
+      "Unit_Volume": {
+        "type": ["integer", "null"]
+      },
+      "Over_Receipt_Code": {
+        "type": ["string", "null"]
+      },
+      "Trans_Ord_Receipt_Qty": {
+        "type": ["integer", "null"]
+      },
+      "Trans_Ord_Shipment_Qty": {
+        "type": ["integer", "null"]
+      },
+      "Qty_in_Transit": {
+        "type": ["integer", "null"]
+      },
+      "Costing_Method": {
+        "type": ["string", "null"]
+      },
+      "Standard_Cost": {
+        "type": ["integer", "null"]
+      },
+      "Unit_Cost": {
+        "type": ["number", "null"]
+      },
+      "Indirect_Cost_Percent": {
+        "type": ["integer", "null"]
+      },
+      "Last_Direct_Cost": {
+        "type": ["number", "null"]
+      },
+      "Net_Invoiced_Qty": {
+        "type": ["integer", "null"]
+      },
+      "Cost_is_Adjusted": {
+        "type": ["boolean", "null"]
+      },
+      "Excluded_from_Cost_Adjustment": {
+        "type": ["boolean", "null"]
+      },
+      "Cost_is_Posted_to_G_L": {
+        "type": ["boolean", "null"]
+      },
+      "Inventory_Value_Zero": {
+        "type": ["boolean", "null"]
+      },
+      "SpecialPurchPriceListTxt": {
+        "type": ["string", "null"]
+      },
+      "SpecialPurchPricesAndDiscountsTxt": {
+        "type": ["string", "null"]
+      },
+      "Gen_Prod_Posting_Group": {
+        "type": ["string", "null"]
+      },
+      "VAT_Prod_Posting_Group": {
+        "type": ["string", "null"]
+      },
+      "Tax_Group_Code": {
+        "type": ["string", "null"]
+      },
+      "Inventory_Posting_Group": {
+        "type": ["string", "null"]
+      },
+      "Default_Deferral_Template_Code": {
+        "type": ["string", "null"]
+      },
+      "Tariff_No": {
+        "type": ["string", "null"]
+      },
+      "Country_Region_of_Origin_Code": {
+        "type": ["string", "null"]
+      },
+      "Exclude_from_Intrastat_Report": {
+        "type": ["boolean", "null"]
+      },
+      "Supplementary_Unit_of_Measure": {
+        "type": ["string", "null"]
+      },
+      "Unit_Price": {
+        "type": ["number", "null"]
+      },
+      "CalcUnitPriceExclVAT": {
+        "type": ["number", "null"]
+      },
+      "Price_Includes_VAT": {
+        "type": ["boolean", "null"]
+      },
+      "Price_Profit_Calculation": {
+        "type": ["string", "null"]
+      },
+      "Profit_Percent": {
+        "type": ["integer", "null"]
+      },
+      "SpecialSalesPriceListTxt": {
+        "type": ["string", "null"]
+      },
+      "SpecialPricesAndDiscountsTxt": {
+        "type": ["string", "null"]
+      },
+      "Allow_Invoice_Disc": {
+        "type": ["boolean", "null"]
+      },
+      "Item_Disc_Group": {
+        "type": ["string", "null"]
+      },
+      "Sales_Unit_of_Measure": {
+        "type": ["string", "null"]
+      },
+      "Service_Commitment_Option": {
+        "type": ["string", "null"]
+      },
+      "Sales_Blocked": {
+        "type": ["boolean", "null"]
+      },
+      "Service_Blocked": {
+        "type": ["boolean", "null"]
+      },
+      "Application_Wksh_User_ID": {
+        "type": ["string", "null"]
+      },
+      "VAT_Bus_Posting_Gr_Price": {
+        "type": ["string", "null"]
+      },
+      "Replenishment_System": {
+        "type": ["string", "null"]
+      },
+      "Lead_Time_Calculation": {
+        "type": ["string", "null"]
+      },
+      "Vendor_No": {
+        "type": ["string", "null"]
+      },
+      "Vendor_Item_No": {
+        "type": ["string", "null"]
+      },
+      "Purch_Unit_of_Measure": {
+        "type": ["string", "null"]
+      },
+      "Purchasing_Blocked": {
+        "type": ["boolean", "null"]
+      },
+      "UsageDataSupplierRefExists": {
+        "type": ["boolean", "null"]
+      },
+      "Manufacturing_Policy": {
+        "type": ["string", "null"]
+      },
+      "Routing_No": {
+        "type": ["string", "null"]
+      },
+      "Production_BOM_No": {
+        "type": ["string", "null"]
+      },
+      "Rounding_Precision": {
+        "type": ["integer", "null"]
+      },
+      "Flushing_Method": {
+        "type": ["string", "null"]
+      },
+      "Overhead_Rate": {
+        "type": ["integer", "null"]
+      },
+      "Scrap_Percent": {
+        "type": ["integer", "null"]
+      },
+      "Lot_Size": {
+        "type": ["integer", "null"]
+      },
+      "Allow_Whse_Overpick": {
+        "type": ["boolean", "null"]
+      },
+      "Production_Blocked": {
+        "type": ["string", "null"]
+      },
+      "Assembly_Policy": {
+        "type": ["string", "null"]
+      },
+      "AssemblyBOM": {
+        "type": ["boolean", "null"]
+      },
+      "Reordering_Policy": {
+        "type": ["string", "null"]
+      },
+      "Reserve": {
+        "type": ["string", "null"]
+      },
+      "Order_Tracking_Policy": {
+        "type": ["string", "null"]
+      },
+      "Stockkeeping_Unit_Exists": {
+        "type": ["boolean", "null"]
+      },
+      "Dampener_Period": {
+        "type": ["string", "null"]
+      },
+      "Dampener_Quantity": {
+        "type": ["integer", "null"]
+      },
+      "Critical": {
+        "type": ["boolean", "null"]
+      },
+      "Safety_Lead_Time": {
+        "type": ["string", "null"]
+      },
+      "Safety_Stock_Quantity": {
+        "type": ["integer", "null"]
+      },
+      "Include_Inventory": {
+        "type": ["boolean", "null"]
+      },
+      "Lot_Accumulation_Period": {
+        "type": ["string", "null"]
+      },
+      "Rescheduling_Period": {
+        "type": ["string", "null"]
+      },
+      "Reorder_Point": {
+        "type": ["integer", "null"]
+      },
+      "Reorder_Quantity": {
+        "type": ["integer", "null"]
+      },
+      "Maximum_Inventory": {
+        "type": ["integer", "null"]
+      },
+      "Overflow_Level": {
+        "type": ["integer", "null"]
+      },
+      "Time_Bucket": {
+        "type": ["string", "null"]
+      },
+      "Minimum_Order_Quantity": {
+        "type": ["integer", "null"]
+      },
+      "Maximum_Order_Quantity": {
+        "type": ["integer", "null"]
+      },
+      "Order_Multiple": {
+        "type": ["integer", "null"]
+      },
+      "Item_Tracking_Code": {
+        "type": ["string", "null"]
+      },
+      "Serial_Nos": {
+        "type": ["string", "null"]
+      },
+      "Lot_Nos": {
+        "type": ["string", "null"]
+      },
+      "Expiration_Calculation": {
+        "type": ["string", "null"]
+      },
+      "Acceptable_Percent": {
+        "type": ["integer", "null"]
+      },
+      "Warehouse_Class_Code": {
+        "type": ["string", "null"]
+      },
+      "Special_Equipment_Code": {
+        "type": ["string", "null"]
+      },
+      "Put_away_Template_Code": {
+        "type": ["string", "null"]
+      },
+      "Put_away_Unit_of_Measure_Code": {
+        "type": ["string", "null"]
+      },
+      "Phys_Invt_Counting_Period_Code": {
+        "type": ["string", "null"]
+      },
+      "Last_Phys_Invt_Date": {
+        "type": ["string", "null"]
+      },
+      "Last_Counting_Period_Update": {
+        "type": ["string", "null"]
+      },
+      "Next_Counting_Start_Date": {
+        "type": ["string", "null"]
+      },
+      "Next_Counting_End_Date": {
+        "type": ["string", "null"]
+      },
+      "Identifier_Code": {
+        "type": ["string", "null"]
+      },
+      "Use_Cross_Docking": {
+        "type": ["boolean", "null"]
+      },
+      "ServiceCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "FixedAssetNoFNX": {
+        "type": ["string", "null"]
+      },
+      "NCMCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "NCMExceptionCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "CESTCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "HasGTINFNX": {
+        "type": ["boolean", "null"]
+      },
+      "GTINFNX": {
+        "type": ["string", "null"]
+      },
+      "ANPCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "ANVISACodeFNX": {
+        "type": ["string", "null"]
+      },
+      "OriginCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "TaxExceptionCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "NetWeightFNX": {
+        "type": ["number", "null"]
+      },
+      "GrossWeightFNX": {
+        "type": ["number", "null"]
+      },
+      "ICMS60RetSTBaseAmount_PTE": {
+        "type": ["number", "null"]
+      },
+      "ICMS60RetSTAmount_PTE": {
+        "type": ["number", "null"]
+      },
+      "ICMS60STPercent_PTE": {
+        "type": ["integer", "null"]
+      },
+      "ICMS60SubstituteICMSAmount_PTE": {
+        "type": ["number", "null"]
+      },
+      "GHG_Credit": {
+        "type": ["boolean", "null"]
+      },
+      "Carbon_Credit_Per_UOM": {
+        "type": ["integer", "null"]
+      },
+      "Sust_Cert_No": {
+        "type": ["string", "null"]
+      },
+      "Sust_Cert_Name": {
+        "type": ["string", "null"]
+      },
+      "Default_Sust_Account": {
+        "type": ["string", "null"]
+      },
+      "Default_CO2_Emission": {
+        "type": ["integer", "null"]
+      },
+      "Default_CH4_Emission": {
+        "type": ["integer", "null"]
+      },
+      "Default_N2O_Emission": {
+        "type": ["integer", "null"]
+      },
+      "CO2e_per_Unit": {
+        "type": ["integer", "null"]
+      },
+      "Global_Dimension_1_Filter": {
+        "type": ["string", "null"]
+      },
+      "Global_Dimension_2_Filter": {
+        "type": ["string", "null"]
+      },
+      "Location_Filter": {
+        "type": ["string", "null"]
+      },
+      "Drop_Shipment_Filter": {
+        "type": ["string", "null"]
+      },
+      "Variant_Filter": {
+        "type": ["string", "null"]
+      },
+      "Lot_No_Filter": {
+        "type": ["string", "null"]
+      },
+      "Serial_No_Filter": {
+        "type": ["string", "null"]
+      },
+      "Unit_of_Measure_Filter": {
+        "type": ["string", "null"]
+      },
+      "Package_No_Filter": {
+        "type": ["string", "null"]
+      },
+      "Date_Filter": {
+        "type": ["string", "null"]
+      }
+    },
+    "required": [
+      "No",
+      "Last_Date_Modified"
+    ]
+  }

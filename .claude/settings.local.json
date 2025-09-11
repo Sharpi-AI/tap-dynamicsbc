@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python:*)",
       "Bash(poetry run tap-dynamicsbc:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(poetry show:*)",
+      "Bash(poetry run python:*)"
     ],
     "deny": [],
     "ask": []

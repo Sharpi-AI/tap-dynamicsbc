@@ -34,6 +34,7 @@ class TapDynamicsBusinessCentral(Tap):
         json.dump(message.to_dict(), sys.stdout, ensure_ascii=False, separators=(",", ":"), cls=DecimalEncoder)
         sys.stdout.write("\n")
         sys.stdout.flush()
+        
     config_jsonschema = th.PropertiesList(
         th.Property(
             "client_id",

@@ -1,0 +1,613 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "@odata.etag": {
+        "type": ["string", "null"]
+      },
+      "no": {
+        "type": ["string", "null"]
+      },
+      "address": {
+        "type": ["string", "null"]
+      },
+      "address2": {
+        "type": ["string", "null"]
+      },
+      "allowLineDisc": {
+        "type": ["boolean", "null"]
+      },
+      "amount": {
+        "type": ["integer", "null"]
+      },
+      "applicationMethod": {
+        "type": ["string", "null"]
+      },
+      "balance": {
+        "type": ["integer", "null"]
+      },
+      "balanceLCY": {
+        "type": ["integer", "null"]
+      },
+      "balanceDue": {
+        "type": ["integer", "null"]
+      },
+      "balanceDueLCY": {
+        "type": ["integer", "null"]
+      },
+      "baseCalendarCode": {
+        "type": ["string", "null"]
+      },
+      "billToCustomerNo": {
+        "type": ["string", "null"]
+      },
+      "billToNoOfArchivedDoc": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfBlanketOrders": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfCreditMemos": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfInvoices": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfOrders": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfPstdCrMemos": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfPstdInvoices": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfPstdReturnR": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfPstdShipments": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfQuotes": {
+        "type": ["integer", "null"]
+      },
+      "billToNoOfReturnOrders": {
+        "type": ["integer", "null"]
+      },
+      "blockPaymentTolerance": {
+        "type": ["boolean", "null"]
+      },
+      "blocked": {
+        "type": ["string", "null"]
+      },
+      "budgetedAmount": {
+        "type": ["integer", "null"]
+      },
+      "cashFlowPaymentTermsCode": {
+        "type": ["string", "null"]
+      },
+      "categoryFNX": {
+        "type": ["string", "null"]
+      },
+      "ccmfnx": {
+        "type": ["string", "null"]
+      },
+      "chainName": {
+        "type": ["string", "null"]
+      },
+      "city": {
+        "type": ["string", "null"]
+      },
+      "cnpjcpffnx": {
+        "type": ["string", "null"]
+      },
+      "collectionMethod": {
+        "type": ["string", "null"]
+      },
+      "combineShipments": {
+        "type": ["boolean", "null"]
+      },
+      "comment": {
+        "type": ["boolean", "null"]
+      },
+      "companyNatureFNX": {
+        "type": ["string", "null"]
+      },
+      "contact": {
+        "type": ["string", "null"]
+      },
+      "contactGraphId": {
+        "type": ["string", "null"]
+      },
+      "contactID": {
+        "type": ["string", "null"]
+      },
+      "contactType": {
+        "type": ["string", "null"]
+      },
+      "contractGainLossAmount": {
+        "type": ["integer", "null"]
+      },
+      "copySellToAddrToQteFrom": {
+        "type": ["string", "null"]
+      },
+      "countryRegionCode": {
+        "type": ["string", "null"]
+      },
+      "county": {
+        "type": ["string", "null"]
+      },
+      "crMemoAmounts": {
+        "type": ["number", "null"]
+      },
+      "crMemoAmountsLCY": {
+        "type": ["number", "null"]
+      },
+      "creditAmount": {
+        "type": ["number", "null"]
+      },
+      "creditAmountLCY": {
+        "type": ["number", "null"]
+      },
+      "creditLimitLCY": {
+        "type": ["integer", "null"]
+      },
+      "currencyCode": {
+        "type": ["string", "null"]
+      },
+      "currencyId": {
+        "type": ["string", "null"]
+      },
+      "customerDiscGroup": {
+        "type": ["string", "null"]
+      },
+      "customerPostingGroup": {
+        "type": ["string", "null"]
+      },
+      "customerPriceGroup": {
+        "type": ["string", "null"]
+      },
+      "debitAmount": {
+        "type": ["number", "null"]
+      },
+      "debitAmountLCY": {
+        "type": ["number", "null"]
+      },
+      "disableSearchByName": {
+        "type": ["boolean", "null"]
+      },
+      "districtFNX": {
+        "type": ["string", "null"]
+      },
+      "documentSendingProfile": {
+        "type": ["string", "null"]
+      },
+      "eMail": {
+        "type": ["string", "null"]
+      },
+      "eMailNFeFNX": {
+        "type": ["string", "null"]
+      },
+      "endUserFNX": {
+        "type": ["boolean", "null"]
+      },
+      "eoriNumber": {
+        "type": ["string", "null"]
+      },
+      "faxNo": {
+        "type": ["string", "null"]
+      },
+      "finChargeMemoAmountsLCY": {
+        "type": ["integer", "null"]
+      },
+      "finChargeTermsCode": {
+        "type": ["string", "null"]
+      },
+      "financeChargeMemoAmounts": {
+        "type": ["integer", "null"]
+      },
+      "genBusPostingGroup": {
+        "type": ["string", "null"]
+      },
+      "gln": {
+        "type": ["string", "null"]
+      },
+      "globalDimension1Code": {
+        "type": ["string", "null"]
+      },
+      "globalDimension2Code": {
+        "type": ["string", "null"]
+      },
+      "homePage": {
+        "type": ["string", "null"]
+      },
+      "icPartnerCode": {
+        "type": ["string", "null"]
+      },
+      "id": {
+        "type": ["string", "null"]
+      },
+      "iefnx": {
+        "type": ["string", "null"]
+      },
+      "ieValidatedFNX": {
+        "type": ["boolean", "null"]
+      },
+      "intrastatPartnerType": {
+        "type": ["string", "null"]
+      },
+      "invAmountsLCY": {
+        "type": ["number", "null"]
+      },
+      "invDiscountsLCY": {
+        "type": ["integer", "null"]
+      },
+      "invoiceAmounts": {
+        "type": ["number", "null"]
+      },
+      "invoiceCopies": {
+        "type": ["integer", "null"]
+      },
+      "invoiceDiscCode": {
+        "type": ["string", "null"]
+      },
+      "languageCode": {
+        "type": ["string", "null"]
+      },
+      "lastDateModified": {
+        "type": ["string", "null"]
+      },
+      "lastModifiedDateTime": {
+        "type": ["string", "null"]
+      },
+      "lastStatementNo": {
+        "type": ["integer", "null"]
+      },
+      "locationCode": {
+        "type": ["string", "null"]
+      },
+      "mobilePhoneNo": {
+        "type": ["string", "null"]
+      },
+      "name": {
+        "type": ["string", "null"]
+      },
+      "name2": {
+        "type": ["string", "null"]
+      },
+      "netChange": {
+        "type": ["integer", "null"]
+      },
+      "netChangeLCY": {
+        "type": ["integer", "null"]
+      },
+      "nifCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "noOfBlanketOrders": {
+        "type": ["integer", "null"]
+      },
+      "noOfCreditMemos": {
+        "type": ["integer", "null"]
+      },
+      "noOfInvoices": {
+        "type": ["integer", "null"]
+      },
+      "noOfOrders": {
+        "type": ["integer", "null"]
+      },
+      "noOfPstdCreditMemos": {
+        "type": ["integer", "null"]
+      },
+      "noOfPstdInvoices": {
+        "type": ["integer", "null"]
+      },
+      "noOfPstdReturnReceipts": {
+        "type": ["integer", "null"]
+      },
+      "noOfPstdShipments": {
+        "type": ["integer", "null"]
+      },
+      "noOfQuotes": {
+        "type": ["integer", "null"]
+      },
+      "noOfReturnOrders": {
+        "type": ["integer", "null"]
+      },
+      "noOfShipToAddresses": {
+        "type": ["integer", "null"]
+      },
+      "noSeries": {
+        "type": ["string", "null"]
+      },
+      "notICMSContributorFNX": {
+        "type": ["boolean", "null"]
+      },
+      "numberFNX": {
+        "type": ["string", "null"]
+      },
+      "optingForSimplesFNX": {
+        "type": ["boolean", "null"]
+      },
+      "otherAmounts": {
+        "type": ["integer", "null"]
+      },
+      "otherAmountsLCY": {
+        "type": ["integer", "null"]
+      },
+      "ourAccountNo": {
+        "type": ["string", "null"]
+      },
+      "outstandingInvoices": {
+        "type": ["integer", "null"]
+      },
+      "outstandingInvoicesLCY": {
+        "type": ["integer", "null"]
+      },
+      "outstandingOrders": {
+        "type": ["integer", "null"]
+      },
+      "outstandingOrdersLCY": {
+        "type": ["integer", "null"]
+      },
+      "outstandingServOrdersLCY": {
+        "type": ["integer", "null"]
+      },
+      "outstandingServInvoicesLCY": {
+        "type": ["integer", "null"]
+      },
+      "participantCategoryCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "partnerType": {
+        "type": ["string", "null"]
+      },
+      "paymentMethodCode": {
+        "type": ["string", "null"]
+      },
+      "paymentMethodId": {
+        "type": ["string", "null"]
+      },
+      "paymentTermsCode": {
+        "type": ["string", "null"]
+      },
+      "paymentTermsId": {
+        "type": ["string", "null"]
+      },
+      "payments": {
+        "type": ["number", "null"]
+      },
+      "paymentsLCY": {
+        "type": ["number", "null"]
+      },
+      "phoneNo": {
+        "type": ["string", "null"]
+      },
+      "placeOfExport": {
+        "type": ["string", "null"]
+      },
+      "pmtDiscToleranceLCY": {
+        "type": ["integer", "null"]
+      },
+      "pmtDiscountsLCY": {
+        "type": ["integer", "null"]
+      },
+      "pmtToleranceLCY": {
+        "type": ["integer", "null"]
+      },
+      "postCode": {
+        "type": ["string", "null"]
+      },
+      "postCodePTE": {
+        "type": ["string", "null"]
+      },
+      "preferredBankAccountCode": {
+        "type": ["string", "null"]
+      },
+      "prepayment": {
+        "type": ["integer", "null"]
+      },
+      "priceCalculationMethod": {
+        "type": ["string", "null"]
+      },
+      "pricesIncludingVAT": {
+        "type": ["boolean", "null"]
+      },
+      "primaryContactNo": {
+        "type": ["string", "null"]
+      },
+      "printStatements": {
+        "type": ["boolean", "null"]
+      },
+      "priority": {
+        "type": ["integer", "null"]
+      },
+      "privacyBlocked": {
+        "type": ["boolean", "null"]
+      },
+      "profitLCY": {
+        "type": ["number", "null"]
+      },
+      "refunds": {
+        "type": ["integer", "null"]
+      },
+      "refundsLCY": {
+        "type": ["integer", "null"]
+      },
+      "reminderAmounts": {
+        "type": ["integer", "null"]
+      },
+      "reminderAmountsLCY": {
+        "type": ["integer", "null"]
+      },
+      "reminderTermsCode": {
+        "type": ["string", "null"]
+      },
+      "reserve": {
+        "type": ["string", "null"]
+      },
+      "redes": {
+        "type": ["string", "null"]
+      },
+      "ruralProducerFNX": {
+        "type": ["boolean", "null"]
+      },
+      "salesLCY": {
+        "type": ["number", "null"]
+      },
+      "salespersonCode": {
+        "type": ["string", "null"]
+      },
+      "searchName": {
+        "type": ["string", "null"]
+      },
+      "sellToNoOfArchivedDoc": {
+        "type": ["integer", "null"]
+      },
+      "servShippedNotInvoicedLCY": {
+        "type": ["integer", "null"]
+      },
+      "serviceZoneCode": {
+        "type": ["string", "null"]
+      },
+      "serviceZoneCodePTE": {
+        "type": ["string", "null"]
+      },
+      "shipToCode": {
+        "type": ["string", "null"]
+      },
+      "shipmentMethodCode": {
+        "type": ["string", "null"]
+      },
+      "shipmentMethodId": {
+        "type": ["string", "null"]
+      },
+      "shippedNotInvoiced": {
+        "type": ["integer", "null"]
+      },
+      "shippedNotInvoicedLCY": {
+        "type": ["integer", "null"]
+      },
+      "shippingAdvice": {
+        "type": ["string", "null"]
+      },
+      "shippingAgentCode": {
+        "type": ["string", "null"]
+      },
+      "shippingAgentServiceCode": {
+        "type": ["string", "null"]
+      },
+      "shippingTime": {
+        "type": ["string", "null"]
+      },
+      "statisticsGroup": {
+        "type": ["integer", "null"]
+      },
+      "suframaCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "suframaRegionFNX": {
+        "type": ["boolean", "null"]
+      },
+      "systemCreatedAt": {
+        "type": ["string", "null"]
+      },
+      "systemCreatedBy": {
+        "type": ["string", "null"]
+      },
+      "systemId": {
+        "type": ["string", "null"]
+      },
+      "systemModifiedAt": {
+        "type": ["string", "null"]
+      },
+      "systemModifiedBy": {
+        "type": ["string", "null"]
+      },
+      "taxAreaCode": {
+        "type": ["string", "null"]
+      },
+      "taxAreaID": {
+        "type": ["string", "null"]
+      },
+      "taxLiable": {
+        "type": ["boolean", "null"]
+      },
+      "taxAreaCodeFNX": {
+        "type": ["string", "null"]
+      },
+      "telexAnswerBack": {
+        "type": ["string", "null"]
+      },
+      "telexNo": {
+        "type": ["string", "null"]
+      },
+      "territoryCode": {
+        "type": ["string", "null"]
+      },
+      "useGLNInElectronicDocument": {
+        "type": ["boolean", "null"]
+      },
+      "validateEUVatRegNo": {
+        "type": ["boolean", "null"]
+      },
+      "vatBusPostingGroup": {
+        "type": ["string", "null"]
+      },
+      "vatRegistrationNo": {
+        "type": ["string", "null"]
+      },
+      "shortcutDimension1Code": {
+        "type": ["string", "null"]
+      },
+      "shortcutDimension2Code": {
+        "type": ["string", "null"]
+      },
+      "shortcutDimension3Code": {
+        "type": ["string", "null"]
+      },
+      "shortcutDimension4Code": {
+        "type": ["string", "null"]
+      },
+      "shortcutDimension5Code": {
+        "type": ["string", "null"]
+      },
+      "shortcutDimension6Code": {
+        "type": ["string", "null"]
+      },
+      "shortcutDimension7Code": {
+        "type": ["string", "null"]
+      },
+      "shortcutDimension8Code": {
+        "type": ["string", "null"]
+      },
+      "recordLinks": {
+        "type": ["string", "null"]
+      },
+      "iePTE": {
+        "type": ["string", "null"]
+      },
+      "eCommerce": {
+        "type": ["boolean", "null"]
+      },
+      "Global_Dimension_1_Filter": {
+        "type": ["string", "null"]
+      },
+      "Global_Dimension_2_Filter": {
+        "type": ["string", "null"]
+      },
+      "Currency_Filter": {
+        "type": ["string", "null"]
+      },
+      "Date_Filter": {
+        "type": ["string", "null"]
+      },
+      "Ship_to_Filter": {
+        "type": ["string", "null"]
+      }
+    },
+    "required": [
+      "no",
+      "lastModifiedDateTime"
+    ]
+  }
