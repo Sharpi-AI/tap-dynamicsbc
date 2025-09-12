@@ -28,7 +28,7 @@ SCHEMAS_DIR = resources.files(__package__) / "schemas"
 class DynamicsBusinessCentralPaginator(BaseOffsetPaginator):
     """Paginator for Dynamics Business Central OData API."""
 
-    def __init__(self, start_value: int = 0, page_size: int = 1000) -> None:
+    def __init__(self, start_value: int = 0, page_size: int = 5000) -> None:
         """Initialize the paginator.
         
         Args:

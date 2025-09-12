@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import typing as t
 
-from singer_sdk import typing as th
 from singer_sdk import SchemaDirectory, StreamSchema
 from tap_dynamicsbc.client import DynamicsBusinessCentralStream
 from tap_dynamicsbc import schemas
