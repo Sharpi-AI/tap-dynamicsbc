@@ -9,7 +9,7 @@
         "type": ["string", "null"]
       },
       "Line_No": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "PriceListDescription": {
         "type": ["string", "null"]
@@ -42,7 +42,7 @@
         "type": ["string", "null"]
       },
       "Minimum_Quantity": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Amount_Type": {
         "type": ["string", "null"]
@@ -54,13 +54,13 @@
         "type": ["number", "null"]
       },
       "Cost_Factor": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "DirectUnitCost": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Unit_Cost": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Starting_Date": {
         "type": ["string", "null"]
@@ -72,10 +72,10 @@
         "type": ["boolean", "null"]
       },
       "Line_Discount_Percent": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "PurchLineDiscountPct": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Allow_Invoice_Disc": {
         "type": ["boolean", "null"]

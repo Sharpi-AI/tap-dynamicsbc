@@ -47,3 +47,12 @@ class PricesStream(DynamicsBusinessCentralStream):
         params = super().get_url_params(context, next_page_token)
         params["$filter"] = "Price_List_Code eq '01'"
         return params
+
+
+class UnitsStream(DynamicsBusinessCentralStream):
+    """Define units stream."""
+
+    name = "units"
+    path = "/ItemUnits"
+    primary_keys: t.ClassVar[list[str]] = ["Code"]
+    schema = StreamSchema(SCHEMAS_DIR)

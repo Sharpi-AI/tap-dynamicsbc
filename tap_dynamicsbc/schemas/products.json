@@ -78,37 +78,37 @@
         "type": ["string", "null"]
       },
       "Inventory": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "InventoryNonFoundation": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_on_Purch_Order": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_on_Prod_Order": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_on_Component_Lines": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_on_Sales_Order": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_Tracking": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_on_Service_Order": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_on_Job_Order": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_on_Assembly_Order": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_on_Asm_Component": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "StockoutWarningDefaultYes": {
         "type": ["string", "null"]
@@ -129,37 +129,37 @@
         "type": ["number", "null"]
       },
       "Unit_Volume": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Over_Receipt_Code": {
         "type": ["string", "null"]
       },
       "Trans_Ord_Receipt_Qty": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Trans_Ord_Shipment_Qty": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Qty_in_Transit": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Costing_Method": {
         "type": ["string", "null"]
       },
       "Standard_Cost": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Unit_Cost": {
         "type": ["number", "null"]
       },
       "Indirect_Cost_Percent": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Last_Direct_Cost": {
         "type": ["number", "null"]
       },
       "Net_Invoiced_Qty": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Cost_is_Adjusted": {
         "type": ["boolean", "null"]
@@ -219,7 +219,7 @@
         "type": ["string", "null"]
       },
       "Profit_Percent": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "SpecialSalesPriceListTxt": {
         "type": ["string", "null"]
@@ -282,19 +282,19 @@
         "type": ["string", "null"]
       },
       "Rounding_Precision": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Flushing_Method": {
         "type": ["string", "null"]
       },
       "Overhead_Rate": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Scrap_Percent": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Lot_Size": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Allow_Whse_Overpick": {
         "type": ["boolean", "null"]
@@ -324,7 +324,7 @@
         "type": ["string", "null"]
       },
       "Dampener_Quantity": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Critical": {
         "type": ["boolean", "null"]
@@ -333,7 +333,7 @@
         "type": ["string", "null"]
       },
       "Safety_Stock_Quantity": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Include_Inventory": {
         "type": ["boolean", "null"]
@@ -345,28 +345,28 @@
         "type": ["string", "null"]
       },
       "Reorder_Point": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Reorder_Quantity": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Maximum_Inventory": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Overflow_Level": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Time_Bucket": {
         "type": ["string", "null"]
       },
       "Minimum_Order_Quantity": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Maximum_Order_Quantity": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Order_Multiple": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Item_Tracking_Code": {
         "type": ["string", "null"]
@@ -381,7 +381,7 @@
         "type": ["string", "null"]
       },
       "Acceptable_Percent": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Warehouse_Class_Code": {
         "type": ["string", "null"]
@@ -462,7 +462,7 @@
         "type": ["number", "null"]
       },
       "ICMS60STPercent_PTE": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "ICMS60SubstituteICMSAmount_PTE": {
         "type": ["number", "null"]
@@ -471,7 +471,7 @@
         "type": ["boolean", "null"]
       },
       "Carbon_Credit_Per_UOM": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Sust_Cert_No": {
         "type": ["string", "null"]
@@ -483,16 +483,16 @@
         "type": ["string", "null"]
       },
       "Default_CO2_Emission": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Default_CH4_Emission": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Default_N2O_Emission": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "CO2e_per_Unit": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "Global_Dimension_1_Filter": {
         "type": ["string", "null"]

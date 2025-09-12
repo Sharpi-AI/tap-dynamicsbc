@@ -18,22 +18,22 @@
         "type": ["boolean", "null"]
       },
       "amount": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "applicationMethod": {
         "type": ["string", "null"]
       },
       "balance": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "balanceLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "balanceDue": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "balanceDueLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "baseCalendarCode": {
         "type": ["string", "null"]
@@ -42,37 +42,37 @@
         "type": ["string", "null"]
       },
       "billToNoOfArchivedDoc": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfBlanketOrders": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfCreditMemos": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfInvoices": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfOrders": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfPstdCrMemos": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfPstdInvoices": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfPstdReturnR": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfPstdShipments": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfQuotes": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "billToNoOfReturnOrders": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "blockPaymentTolerance": {
         "type": ["boolean", "null"]
@@ -81,7 +81,7 @@
         "type": ["string", "null"]
       },
       "budgetedAmount": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "cashFlowPaymentTermsCode": {
         "type": ["string", "null"]
@@ -126,7 +126,7 @@
         "type": ["string", "null"]
       },
       "contractGainLossAmount": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "copySellToAddrToQteFrom": {
         "type": ["string", "null"]
@@ -150,7 +150,7 @@
         "type": ["number", "null"]
       },
       "creditLimitLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "currencyCode": {
         "type": ["string", "null"]
@@ -198,13 +198,13 @@
         "type": ["string", "null"]
       },
       "finChargeMemoAmountsLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "finChargeTermsCode": {
         "type": ["string", "null"]
       },
       "financeChargeMemoAmounts": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "genBusPostingGroup": {
         "type": ["string", "null"]
@@ -240,13 +240,13 @@
         "type": ["number", "null"]
       },
       "invDiscountsLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "invoiceAmounts": {
         "type": ["number", "null"]
       },
       "invoiceCopies": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "invoiceDiscCode": {
         "type": ["string", "null"]
@@ -261,7 +261,7 @@
         "type": ["string", "null"]
       },
       "lastStatementNo": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "locationCode": {
         "type": ["string", "null"]
@@ -276,46 +276,46 @@
         "type": ["string", "null"]
       },
       "netChange": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "netChangeLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "nifCodeFNX": {
         "type": ["string", "null"]
       },
       "noOfBlanketOrders": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfCreditMemos": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfInvoices": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfOrders": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfPstdCreditMemos": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfPstdInvoices": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfPstdReturnReceipts": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfPstdShipments": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfQuotes": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfReturnOrders": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noOfShipToAddresses": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "noSeries": {
         "type": ["string", "null"]
@@ -330,31 +330,31 @@
         "type": ["boolean", "null"]
       },
       "otherAmounts": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "otherAmountsLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "ourAccountNo": {
         "type": ["string", "null"]
       },
       "outstandingInvoices": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "outstandingInvoicesLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "outstandingOrders": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "outstandingOrdersLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "outstandingServOrdersLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "outstandingServInvoicesLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "participantCategoryCodeFNX": {
         "type": ["string", "null"]
@@ -387,13 +387,13 @@
         "type": ["string", "null"]
       },
       "pmtDiscToleranceLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "pmtDiscountsLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "pmtToleranceLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "postCode": {
         "type": ["string", "null"]
@@ -405,7 +405,7 @@
         "type": ["string", "null"]
       },
       "prepayment": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "priceCalculationMethod": {
         "type": ["string", "null"]
@@ -420,7 +420,7 @@
         "type": ["boolean", "null"]
       },
       "priority": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "privacyBlocked": {
         "type": ["boolean", "null"]
@@ -429,16 +429,16 @@
         "type": ["number", "null"]
       },
       "refunds": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "refundsLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "reminderAmounts": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "reminderAmountsLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "reminderTermsCode": {
         "type": ["string", "null"]
@@ -462,10 +462,10 @@
         "type": ["string", "null"]
       },
       "sellToNoOfArchivedDoc": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "servShippedNotInvoicedLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "serviceZoneCode": {
         "type": ["string", "null"]
@@ -483,10 +483,10 @@
         "type": ["string", "null"]
       },
       "shippedNotInvoiced": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "shippedNotInvoicedLCY": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "shippingAdvice": {
         "type": ["string", "null"]
@@ -501,7 +501,7 @@
         "type": ["string", "null"]
       },
       "statisticsGroup": {
-        "type": ["integer", "null"]
+        "type": ["number", "null"]
       },
       "suframaCodeFNX": {
         "type": ["string", "null"]
