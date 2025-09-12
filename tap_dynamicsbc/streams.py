@@ -22,8 +22,6 @@ class ClientsStream(DynamicsBusinessCentralStream):
 
 
 class ProductsStream(DynamicsBusinessCentralStream):
-    """Define products stream."""
-
     name = "products"
     path = "/ItemCard"
     primary_keys: t.ClassVar[list[str]] = ["No"]
@@ -32,8 +30,6 @@ class ProductsStream(DynamicsBusinessCentralStream):
 
 
 class PricesStream(DynamicsBusinessCentralStream):
-    """Define prices stream."""
-
     name = "prices"
     path = "/itemprice"
     primary_keys: t.ClassVar[list[str]] = ["Price_List_Code", "Line_No"]
@@ -50,9 +46,14 @@ class PricesStream(DynamicsBusinessCentralStream):
 
 
 class UnitsStream(DynamicsBusinessCentralStream):
-    """Define units stream."""
-
     name = "units"
     path = "/ItemUnits"
+    primary_keys: t.ClassVar[list[str]] = ["Code"]
+    schema = StreamSchema(SCHEMAS_DIR)
+
+
+class SellerStream(DynamicsBusinessCentralStream):
+    name = "sellers"
+    path = "/Vendedor_Card"
     primary_keys: t.ClassVar[list[str]] = ["Code"]
     schema = StreamSchema(SCHEMAS_DIR)

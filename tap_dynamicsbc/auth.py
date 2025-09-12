@@ -17,6 +17,11 @@ class DynamicsBusinessCentralAuthenticator(OAuthAuthenticator, metaclass=Singlet
             "grant_type": "client_credentials",
         }
 
+    def refresh_access_token(self) -> None:
+        """Force refresh the access token by clearing cached token."""
+        self.access_token = None
+        self._token = None
+        
     @classmethod
     def create_for_stream(cls, stream) -> DynamicsBusinessCentralAuthenticator:  # noqa: ANN001
         """Instantiate an authenticator for a specific Singer stream.
