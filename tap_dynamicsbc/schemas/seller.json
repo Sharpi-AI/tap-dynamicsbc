@@ -1,0 +1,75 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "title": "Generated Schema",
+    "description": "Generated from JSON data",
+    "type": "object",
+    "properties": {
+      "@odata.etag": {
+        "type": ["string", "null"],
+        "description": ""
+      },
+      "Code": {
+        "type": ["string", "null"],
+        "description": ""
+      },
+      "Name": {
+        "type": ["string", "null"],
+        "description": ""
+      },
+      "Job_Title": {
+        "type": ["string", "null"],
+        "description": ""
+      },
+      "Commission_Percent": {
+        "type": ["number", "null"],
+        "description": ""
+      },
+      "CPFCNPJPTE": {
+        "type": ["string", "null"],
+        "description": ""
+      },
+      "Bonus_Percentage_PTE": {
+        "type": ["number", "null"],
+        "description": ""
+      },
+      "Discount_Percentage_PTE": {
+        "type": ["number", "null"],
+        "description": ""
+      },
+      "META": {
+        "type": ["number", "null"],
+        "description": ""
+      },
+      "Phone_No": {
+        "type": ["string", "null"],
+        "description": ""
+      },
+      "E_Mail": {
+        "type": ["string", "null"],
+        "description": "",
+        "format": "email"
+      },
+      "Next_Task_Date": {
+        "type": ["string", "null"],
+        "description": "",
+        "format": "date"
+      },
+      "Privacy_Blocked": {
+        "type": ["boolean", "null"],
+        "description": ""
+      },
+      "Blocked": {
+        "type": ["boolean", "null"],
+        "description": ""
+      },
+      "Global_Dimension_1_Code": {
+        "type": ["string", "null"],
+        "description": ""
+      },
+      "Global_Dimension_2_Code": {
+        "type": ["string", "null"],
+        "description": ""
+      }
+    },
+    "required": []
+}
