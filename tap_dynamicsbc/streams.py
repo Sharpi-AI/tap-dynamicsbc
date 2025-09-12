@@ -20,6 +20,19 @@ class ClientsStream(DynamicsBusinessCentralStream):
     replication_key = "lastModifiedDateTime"
     schema = StreamSchema(SCHEMAS_DIR)
 
+    def get_url_params(
+        self,
+        context: t.Any | None = None,  # noqa: ARG002
+        next_page_token: t.Any | None = None,  # noqa: ANN401
+    ) -> dict[str, t.Any]:
+        params = super().get_url_params(context, next_page_token)
+        if params.get("$filter"):
+            params["$filter"] += " and "
+        else:
+            params["$filter"] = ""
+        params["$filter"] += "eCommerce eq false"
+        return params
+
 
 class ProductsStream(DynamicsBusinessCentralStream):
     name = "products"
