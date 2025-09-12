@@ -113,7 +113,7 @@ class DynamicsBusinessCentralStream(RESTStream):
         Returns:
             A pagination helper instance for Dynamics Business Central OData API.
         """
-        return DynamicsBusinessCentralPaginator(start_value=0, page_size=1000)
+        return DynamicsBusinessCentralPaginator(start_value=0, page_size=5000)
 
     def get_url_params(
         self,
