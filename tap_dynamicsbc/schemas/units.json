@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "@odata.etag": {
+            "type": ["string", "null"]
+        },
+        "Item_No": {
+            "type": ["string", "null"]
+        },
+        "Code": {
+            "type": ["string", "null"]
+        },
+        "Qty_per_Unit_of_Measure": {
+            "type": ["number", "null"]
+        },
+        "NFeQtyPerUnitOfMeasureFNX": {
+            "type": ["number", "null"]
+        },
+        "Height": {
+            "type": ["number", "null"]
+        },
+        "Width": {
+            "type": ["number", "null"]
+        },
+        "Length": {
+            "type": ["number", "null"]
+        },
+        "Cubage": {
+            "type": ["number", "null"]
+        },
+        "Weight": {
+            "type": ["number", "null"]
+        },
+        "Coupled_to_Dataverse": {
+            "type": ["boolean", "null"]
+        },
+        "ItemUnitOfMeasure": {
+            "type": ["string", "null"]
+        },
+        "ItemBaseUOMQtyPrecision": {
+            "type": ["number", "null"]
+        }
+    }
+}
